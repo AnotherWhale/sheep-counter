@@ -1,0 +1,77 @@
+body {
+    size: 100vh;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.counter {
+}
+
+.counter::before {
+    content: "";
+    background-image: url("Sheep.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.7);
+    border: solid rgba(255,255,255,0);
+    border-radius: 10px;
+    width: 250px;   
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#save-el {
+    background: rgba(255,255,255,0.7);
+    border: solid rgba(255,255,255,0);
+    border-radius: 10px;
+    width: 250px;
+    margin: auto;
+}
+
+#increment-btn {
+    background: maroon;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#reset-btn {
+    background: darkgray;
+}
